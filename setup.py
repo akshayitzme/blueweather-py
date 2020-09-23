@@ -14,6 +14,7 @@ key=input(Fore.GREEN+">>Enter WeatherBit API Key:")
 if key!="":
 	conf.write(key)
 	conf.close()
-	print('\n 	Config Created!\n')
+	print('\n 	Config Created!\n\n Running BlueWeather')
+	os.system('python blueweather.py')
 else:
 	print(Fore.RED+'Setup Failed \nEnter Valid Key')
