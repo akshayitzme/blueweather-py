@@ -23,5 +23,6 @@ Shows
 * Apparent /"Feels Like" Temperature.
 * Humidity (%).
 * Wind Speed (km/h).
+* Weather Description.
 * City Name
 * Country Code
