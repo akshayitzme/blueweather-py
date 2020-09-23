@@ -1,3 +1,12 @@
+import os
+try:
+  import requests
+  import colorama
+except ImportError:
+  print ("Trying to Install required module: requests\n")
+  os.system('pip3 install requests')
+  os.system('pip3 install colorama')
+import requests
 from colorama import Fore, Back, Style
 print(Fore.RED+"\n______________________BlueWeather______________________\n\n"+Fore.MAGENTA+"Python Version | https://github.com/akshayitzme\n")
 conf=open(".conf","w+")
